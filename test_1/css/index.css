@@ -1,5 +1,5 @@
 @import url("../css/awesome.css");
-
+@import url("../css/import.css");
 
 * {
     padding: 0;
@@ -14,19 +14,22 @@
     padding: 0 15px;
 }
 
+.html{
+    font-family: 'Open Sans', 'Raleway', sans-serif;
+}
+
 .title {
     color: #212121;
     font-size: 36px;
-    font-family: Raleway;
+    font-family: 'Raleway';
+    font-weight: 300;
     text-align: center;
     margin-bottom: 35px;
 }
 
 .card__title {
     color: #333;
-font-size: 20px;
-font-family: Open Sans;
-font-weight: 700;
-}
-.card__content-text {
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 600;
 }
