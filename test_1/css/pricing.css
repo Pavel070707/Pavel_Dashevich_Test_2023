@@ -1,0 +1,69 @@
+#pricing {
+    padding: 80px 0 115px;
+    background-color:#F5F5F5 ;
+
+}
+
+.pricing__wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+
+}
+
+
+
+.table {
+    width: 340px;
+    text-align: center;
+    margin: 0 15px;
+
+
+}
+
+
+.table__tarif {
+color: #FFF;
+font-size: 20px;
+font-family: Open Sans;
+font-weight: 700;
+background-color: #333;
+padding: 10px 0px 10px;
+margin-bottom: 2px;
+
+}
+
+
+.table__pricing {
+color: #FFF;
+text-align: center;
+font-size: 35px;
+font-family: Raleway;
+font-weight: 700;
+background-color: #333;
+padding: 30px 0px 30px;
+margin-bottom: 2px;
+}
+
+
+.table__free {
+color: rgba(255, 255, 255, 0.50);
+font-size: 14px;
+font-family: Open Sans;
+font-weight: 600;
+background-color: #333;
+padding: 15px 0px 15px;
+margin-bottom: 2px;
+}
+
+
+
+.table__gb {
+color: #86878B;
+font-size: 14px;
+font-family: Open Sans;
+background-color: #FFF;
+padding: 10px 0px 10px;
+margin-bottom: 2px;
+}

@@ -18,12 +18,7 @@
     justify-content: space-between;
 }
 
-.line{
-    border-bottom: 1px solid rgba(231, 36, 36, 1);
-    width: 65px;
-    margin: auto;
 
-}
 .card {
     width: 350px;
     margin: 0 10px 0px 10px;
