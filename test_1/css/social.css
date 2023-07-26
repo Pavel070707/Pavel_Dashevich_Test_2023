@@ -1,0 +1,110 @@
+#social{
+    padding: 15px 0;
+    background: #F8EFEF;
+}
+
+
+.conteiner {
+}
+
+
+.social__wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+
+}
+.social__left {
+    width: 360px;
+    margin: 0 15px;
+}
+
+.social__left h2{
+    color: #333;
+    font-size: 20px;
+    font-family: Open Sans;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.social__right p{
+    color: #86878B;
+    font-size: 14px;
+    font-family: Open Sans;
+}
+.social__right {
+    width: 570px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+    align-items: center;
+    margin: 0 15px;
+
+}
+.fa-brands {
+    color: #86878B;
+}
+
+.fa-google-plus-g {
+    transition: 0.5s;
+}
+
+.fa-google-plus-g:hover {
+    color: blue;
+    transform: rotate(360deg);
+
+
+}
+
+.fa-twitter {
+        transition: 0.5s;
+}
+.fa-twitter:hover {
+        color: #1faee9;
+    transform: rotate(360deg);
+}
+
+.fa-facebook {
+        transition: 0.5s;
+}
+.fa-facebook:hover {
+        color: rgb(39, 86, 196);
+    transform: rotate(360deg);
+}
+
+
+.fa-instagram {
+        transition: 0.5s;
+}
+.fa-instagram:hover{
+    color: #f09433; 
+
+    transform: rotate(360deg);
+}
+
+
+.fa-tiktok {
+        transition: 0.5s;
+}
+.fa-tiktok:hover {
+        color: rgb(238, 78, 188);
+    transform: rotate(360deg);
+}
+
+.fa-github {
+        transition: 0.5s;
+}
+.fa-github:hover{
+    color: rgb( 255,128,64);
+    border-right-color: maroon;
+    transform: rotate(360deg);
+}
+
+.fa-youtube {
+        transition: 0.5s;
+}
+.fa-youtube:hover {
+        color: red;
+    transform: rotate(360deg);
+}
