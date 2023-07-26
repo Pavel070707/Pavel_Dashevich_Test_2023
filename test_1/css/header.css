@@ -1,0 +1,82 @@
+#axit {
+    padding: 20px 0;
+    background: #000;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+
+}
+
+.menu__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+}
+.left {
+    display: flex;
+   justify-content: center;
+   margin: 0 15px;
+}
+
+.left p{
+color: #FFF;
+font-size: 30px;
+font-family: Raleway;
+font-weight: 300;
+transition: 0.5s;
+}
+
+.left p:hover{
+    transform: rotate(720deg);
+}
+
+.left p::after{
+    content: "IT";
+    display: inline-block;
+    color: rgba(236, 121, 121, 1);
+}
+
+.right {
+    margin: 0 15px;
+}
+.menu__menu {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+
+
+}
+.menu__menu-items {
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0);
+
+}
+
+.menu__menu-items a{
+    color: rgba(255, 255, 255, 0.70) !important;
+    text-align: center;
+    font-size: 15px;
+    font-family: Open Sans;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: 0.5s;
+    
+
+
+
+
+
+
+
+}
+
+.menu__menu-items:hover{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.70);
+
+}
+
+.menu__menu-items a{
+    color: inherit;
+}

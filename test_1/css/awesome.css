@@ -16,12 +16,14 @@
 .awesome__wrap {    
     display: flex;
     justify-content: space-between;
+    margin: 0 -15px;
+    flex-wrap: wrap;
 }
 
 
 .card {
     width: 350px;
-    margin: 0 10px 0px 10px;
+    margin: 0 15px;
 }
 .card__content{
     
