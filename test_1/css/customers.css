@@ -6,7 +6,6 @@
     display: flex;
     justify-content: space-between;
     margin: 0 -15px;
-    flex-wrap: wrap;
     align-items: flex-end;
 
 
@@ -88,3 +87,68 @@
     font-size: 14px;
     font-family: Open Sans;
 }
+
+@media (max-width: 992px) {
+
+    .container {
+      max-width: 750px;
+    }
+
+    .customers__wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Manager__card {
+        margin-bottom: 40px;
+        width: 500px;
+    }
+    .manager__text {
+        width: 498px;
+    }
+    #customers {
+        padding: 40px 0 60px;
+    
+    }
+
+    .manager__img {
+        width: 90px;
+        height: 90px;  
+    }
+    
+    
+
+  }
+  @media (max-width: 767px) {
+
+    .container {
+      width: 600px;
+    }
+
+  }
+  @media (max-width: 566px) {
+
+    .container {
+        width: 320px;
+      }
+
+
+      .Manager__card {
+        margin-bottom: 40px;
+        width: 250px;
+    }
+    .manager__text {
+        width: 250px;
+    }
+    #customers {
+        padding: 20px 0 30px;
+    
+    }
+
+    .manager__img {
+        width: 80px;
+        height: 80px;  
+    }
+
+
+
+  }
